@@ -3,15 +3,15 @@ Implementation of the ISSRE 2021 paper "Improving Code Summarization Through Aut
 # NOTE
 Since we use Differential Evolution(DE) to tune the threshold, the reusult will be a little different from the paper.
 # Setup
-Python >=3.6
-numpy
-scipy
-pickle
-nltk==3.2.5
-sklearn
-six==1.11.0
-rouge==1.0.0
-git+https://github.com/Maluuba/nlg-eval.git@master
+Python >=3.6  
+numpy  
+scipy  
+pickle  
+nltk==3.2.5  
+sklearn  
+six==1.11.0  
+rouge==1.0.0  
+git+https://github.com/Maluuba/nlg-eval.git@master  
 typing==3.6.2
 # Start
 1.Dataset
