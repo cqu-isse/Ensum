@@ -350,6 +350,7 @@ def EnsGen(dataset, alpha, lambda_f):
 
 def Ensum_train(dataset):
     print("Dataset: %s " % (dataset))
+    #The three code summarization approaches
     approaches = ["crossrencos", "crossdeep", "crossnmt"]
     train_code_path = "./" + dataset + "/" + "train.txt.src"
     train_sum_path = "./" + dataset + "/" + "train.txt.tgt"
@@ -410,6 +411,6 @@ def Ensum_train(dataset):
     EnsGen(dataset, thresholds[0], thresholds[1])
 
 if __name__ == '__main__':
-
+    #The dataset name
     dataset = 'cross_data'
     Ensum_train(dataset)
