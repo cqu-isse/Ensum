@@ -1,7 +1,6 @@
 # Ensum
 Implementation of the ISSRE 2021 paper "Improving Code Summarization Through Automated Quality Assurance"
-# NOTE
-Since we use Differential Evolution(DE) to tune the threshold, the reusult will be a little different from the paper.
+
 # Setup
 Python >=3.6  
 numpy  
